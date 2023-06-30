@@ -1,11 +1,49 @@
 import fs from "fs";
+import path from "path";
 import { bundleMDX } from "mdx-bundler";
 import { getMDXComponent } from "mdx-bundler/client";
+import Image, { ImageProps } from "next/image";
+import rehypeImgSize from "rehype-img-size";
+
+type NewImageProps = Omit<
+	ImageProps,
+	"src" | "alt" | "width" | "height" | "placeholder"
+> & {
+	src?: ImageProps["src"] | undefined;
+	alt?: ImageProps["alt"] | undefined;
+	width?: ImageProps["width"] | string | undefined;
+	height?: ImageProps["height"] | string | undefined;
+	placeholder?: ImageProps["placeholder"] | string | undefined;
+};
+
+const components = {
+	img: (props: NewImageProps) => {
+		const newAlt: string =
+			typeof props.alt === "string" ? props.alt : "no alt provided";
+		const newSrc: string = typeof props.src === "string" ? props.src : "nosrc";
+
+		return (
+			<Image
+				alt={newAlt}
+				width={Number(props.width)}
+				height={Number(props.height)}
+				src={newSrc}
+			/>
+		);
+	},
+};
 
 export default async function Home() {
 	const mdxSource = fs.readFileSync("content/index.md", "utf8");
-	const { code, frontmatter } = await bundleMDX({
+	const { code } = await bundleMDX({
 		source: mdxSource,
+		mdxOptions(options, frontmatter) {
+			options.rehypePlugins = [
+				...(options.rehypePlugins ?? []),
+				[rehypeImgSize, { dir: path.join(process.cwd(), "public") }] as any,
+			];
+			return options;
+		},
 	});
 
 	const Component = getMDXComponent(code);
@@ -42,9 +80,9 @@ export default async function Home() {
 				</pattern>
 				<rect fill="url(#pattern)" x="0" y="0" width="100%" height="100%" />
 			</svg>
-			<main className="container mx-auto my-40 max-w-4xl prose bg-white rounded-md shadow-lg p-16">
-				{/* <h1 className="text-5xl font-extrabold my-8">Blue Moon Dog Walking</h1> */}
-				<Component />
+			<main className="container prose mx-auto my-10 max-w-4xl rounded-md bg-white p-16 shadow-lg">
+				<h1 className="hidden">Blue Moon Dog Walking</h1>
+				<Component components={components} />
 			</main>
 		</>
 	);
