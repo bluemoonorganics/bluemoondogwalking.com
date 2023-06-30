@@ -5,6 +5,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Blue Moon Dog Walking",
+	description:
+		"Blue Moon Dog Walking is a professional dog walking service located in Maple Ridge, British Columbia.",
 };
 
 export default function RootLayout({
