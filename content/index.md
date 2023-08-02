@@ -1,5 +1,5 @@
 
-# ![The Blue Moon Dog Walking logo](/logo.png)
+# ![](</Screenshot 2023-08-01 at 21.29.44.png>)
 
 Dog Walking in Maple Ridge BC
 
@@ -38,7 +38,7 @@ So, whether you have a busy work schedule, physical limitations, or simply want 
 
 **We also sell Pet Chef Express Dog Food**
 
-13kg bag for $60.00 plus taxes 
+13kg bag for $60.00 plus taxes
 
 ## Contact
 
@@ -46,4 +46,4 @@ Call **604-961-5349** today!
 
 Or, email **[antal@bluemoondogwalking.com](mailto:antal@bluemoondogwalking.com)**
 
-![A photo of a man walking 2 dogs through a snowy forest](/meritt-thomas-33Iq25wPr7M-unsplash.jpg)
+![](/Picture1.jpg)
