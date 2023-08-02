@@ -81,7 +81,7 @@ export default async function Home() {
 				<rect fill="url(#pattern)" x="0" y="0" width="100%" height="100%" />
 			</svg>
 			<main className="container prose mx-auto my-10 max-w-4xl rounded-md bg-white p-16 shadow-lg">
-				<h1 className="hidden">Blue Moon Dog Walking</h1>
+				<h1 className="hidden">Blue Moon Dog Walking | Maple Ridge, BC</h1>
 				<Component components={components} />
 			</main>
 		</>
