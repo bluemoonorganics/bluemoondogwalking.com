@@ -1,3 +1,4 @@
+
 ![](/logo.png)
 
 Dog Walking in Maple Ridge BC
@@ -10,11 +11,11 @@ We understand that your furry friends are an important part of your family. That
 
 Group walks will take place in Maple Ridge on one of many nature trails and local parks. They are an excellent way for your pooch to play and socialize with other dogs, within the security of a safe and stable pack environment.
 
-#### 1 hour walks  -  $35 Tax included
+#### 1 hour walks  -  $35 
 
 This one hour walk is for young pups, older ladies/gentlemants or breeds that don't need a big workout.
 
-#### 1.5 hour walks  -  $40 tax included
+#### 1.5 hour walks  -  $40 
 
 This one and a half hour adventure walk is for the energetic dogs. Nature trail hikes, swimming, off leash (were available) and having fun with their besties.
 
