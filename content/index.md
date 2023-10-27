@@ -23,7 +23,7 @@ Before beginning any dog walking service, I will schedule a complimentary meetin
 
 ## Contact
 
-Call **604-961-5349** today!
+Call or text **604-961-5349** today!
 
 Or, email **[antal@bluemoondogwalking.com](mailto:antal@bluemoondogwalking.com)**
 
