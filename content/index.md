@@ -42,7 +42,7 @@ So, whether you have a busy work schedule, physical limitations, or simply want 
 
 ## Contact
 
-Call **604-961-5349** today!
+Call or text **604-961-5349** today!
 
 Or, email **[antal@bluemoondogwalking.com](mailto:antal@bluemoondogwalking.com)**
 
