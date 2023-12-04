@@ -1,7 +1,7 @@
 
 ![](/logo.png)
 
-Dog Walking in Maple Ridge BC
+Dog Walking in Maple Ridge and Pitt Meadows BC
 
 Welcome to Blue Moon Dog Walking!
 
@@ -11,9 +11,9 @@ We understand that your furry friends are an important part of your family. That
 
 Group walks will take place in Maple Ridge on one of many nature trails and local parks. They are an excellent way for your pooch to play and socialize with other dogs, within the security of a safe and stable pack environment.
 
-#### 1 hour walks  -  $30
+#### 1 hour walks  -  $35
 
-This one hour walk is for young pups, older ladies/gentlemen or breeds that don't need a big workout.
+This one hour walk is for efficient for most dogs.
 
 #### 1.5 hour walks  -  $40
 
