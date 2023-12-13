@@ -13,7 +13,7 @@ Group walks will take place in Maple Ridge on one of many nature trails and loca
 
 #### 1 hour walks  -  $35
 
-This one hour walk is for efficient for most dogs.
+This one hour walk is efficient for most dogs.
 
 #### 1.5 hour walks  -  $40
 
